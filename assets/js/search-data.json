@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "fastpages 블로그 글쓰기 방법",
-            "content": "Example Markdown Post . 마크다운 글쓰기 . _posts 폴더 클릭 후 . 아래 문구를 복사한다 . toc: true layout: post description: 문서의 설명 categories: [카테고리, 쉼표로, 구분] title: 포스팅 제목 — . | 파일 제목은 yyyy-MM-dd-제목.확장자 형식을 한다 | 문구 내용을 채운 후 commit 한다 | . Example Colab Post . colab 글쓰기 . _notebooks 폴더 클릭 후 . 아래 문구를 복사한다 . “포스팅 제목” . “문서의 설명” . | toc:true | branch: master | badges: true | comments: true | author: 작성자 | categories: [카테고리, 쉼표로, 구분] . 파일 제목은 yyyy-MM-dd-제목.확장자 형식을 한다 | 문구 내용을 채운 후 commit 한다 | | . . . 블로그 메인 페이지 Customizing Blog Posts With Front Matter .",
+            "content": "Example Markdown Post . 마크다운 글쓰기 . _posts 폴더 클릭 후 . 아래 문구를 복사한다 toc: true layout: post description: 문서의 설명 categories: [카테고리, 쉼표로, 구분] title: 포스팅 제목 . | 파일 제목은 yyyy-MM-dd-제목.확장자 형식을 한다 | 문구 내용을 채운 후 commit 한다 | . Example Colab Post . colab 글쓰기 . _notebooks 폴더 클릭 후 . 아래 문구를 복사한다 — “포스팅 제목” . “문서의 설명” . | toc:true | branch: master | badges: true | comments: true | author: 작성자 | categories: [카테고리, 쉼표로, 구분] . . 파일 제목은 yyyy-MM-dd-제목.확장자 형식을 한다 | 문구 내용을 채운 후 commit 한다 | | . . . 블로그 메인 페이지 Customizing Blog Posts With Front Matter .",
             "url": "https://leedokchidok19.github.io/blog-colab/markdown/%EB%B8%94%EB%A1%9C%EA%B7%B8%20%EA%B8%80%EC%93%B0%EA%B8%B0/blog/post/2021/08/08/%EB%B8%94%EB%A1%9C%EA%B7%B8_%EA%B8%80%EC%93%B0%EA%B8%B0.html",
             "relUrl": "/markdown/%EB%B8%94%EB%A1%9C%EA%B7%B8%20%EA%B8%80%EC%93%B0%EA%B8%B0/blog/post/2021/08/08/%EB%B8%94%EB%A1%9C%EA%B7%B8_%EA%B8%80%EC%93%B0%EA%B8%B0.html",
             "date": " • Aug 8, 2021"

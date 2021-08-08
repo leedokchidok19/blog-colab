@@ -106,13 +106,11 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h1"><a href="#example-markdown-post">Example Markdown Post</a>
 <ul>
 <li class="toc-entry toc-h2"><a href="#마크다운-글쓰기">마크다운 글쓰기</a></li>
-<li class="toc-entry toc-h2"><a href="#아래-문구를-복사한다">아래 문구를 복사한다</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h1"><a href="#example-colab-post">Example Colab Post</a>
 <ul>
 <li class="toc-entry toc-h2"><a href="#colab-글쓰기">colab 글쓰기</a></li>
-<li class="toc-entry toc-h2"><a href="#아래-문구를-복사한다-1">아래 문구를 복사한다</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h1"><a href="#포스팅-제목">“포스팅 제목”</a>
@@ -126,15 +124,16 @@ window.onload = wrap_img;
 <a class="anchor" href="#%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EA%B8%80%EC%93%B0%EA%B8%B0" aria-hidden="true"><span class="octicon octicon-link"></span></a>마크다운 글쓰기</h2>
 <p><em>_posts</em> 폴더 클릭 후</p>
 <ol>
-  <li>
-    <h2 id="아래-문구를-복사한다">
-<a class="anchor" href="#%EC%95%84%EB%9E%98-%EB%AC%B8%EA%B5%AC%EB%A5%BC-%EB%B3%B5%EC%82%AC%ED%95%9C%EB%8B%A4" aria-hidden="true"><span class="octicon octicon-link"></span></a>아래 문구를 복사한다</h2>
-    <p>toc: true <br>
-layout: post <br>
+  <li>아래 문구를 복사한다
+    <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>---
+toc: true   
+layout: post   
 description: 문서의 설명 
-categories: [카테고리, 쉼표로, 구분] <br>
-title: 포스팅 제목 <br>
-—</p>
+categories: [카테고리, 쉼표로, 구분]   
+title: 포스팅 제목   
+---
+</code></pre></div>    </div>
   </li>
   <li>파일 제목은 yyyy-MM-dd-제목.확장자 형식을 한다</li>
   <li>문구 내용을 채운 후 commit 한다</li>
@@ -148,9 +147,9 @@ title: 포스팅 제목 <br>
 <a class="anchor" href="#colab-%EA%B8%80%EC%93%B0%EA%B8%B0" aria-hidden="true"><span class="octicon octicon-link"></span></a>colab 글쓰기</h2>
 <p><em>_notebooks</em> 폴더 클릭 후</p>
 <ol>
-  <li>
-    <h2 id="아래-문구를-복사한다-1">
-<a class="anchor" href="#%EC%95%84%EB%9E%98-%EB%AC%B8%EA%B5%AC%EB%A5%BC-%EB%B3%B5%EC%82%AC%ED%95%9C%EB%8B%A4-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>아래 문구를 복사한다</h2>
+  <li>아래 문구를 복사한다
+```
+—
     <h1 id="포스팅-제목">
 <a class="anchor" href="#%ED%8F%AC%EC%8A%A4%ED%8C%85-%EC%A0%9C%EB%AA%A9" aria-hidden="true"><span class="octicon octicon-link"></span></a>“포스팅 제목”</h1>
     <blockquote>
@@ -168,6 +167,7 @@ title: 포스팅 제목 <br>
   <li>
     <h2 id="categories-카테고리-쉼표로-구분">
 <a class="anchor" href="#categories-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC-%EC%89%BC%ED%91%9C%EB%A1%9C-%EA%B5%AC%EB%B6%84" aria-hidden="true"><span class="octicon octicon-link"></span></a>categories: [카테고리, 쉼표로, 구분]</h2>
+    <p>```</p>
     <ol>
       <li>파일 제목은 yyyy-MM-dd-제목.확장자 형식을 한다</li>
       <li>문구 내용을 채운 후 commit 한다</li>
